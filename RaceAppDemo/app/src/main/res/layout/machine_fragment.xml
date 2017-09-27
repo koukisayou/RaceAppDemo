@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/machine_choice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--
+    <BackGroundImage
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/machineBackImage" />
+        -->
+
+    <!--
+    <TextView
+        android:id="@+id/machine_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp" />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:scaleType="fitXY"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:src="@drawable/right"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="240dp"/>
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:scaleType="fitXY"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:src="@drawable/left"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"/>
+        -->
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="StartRace!!"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="80dp"/>
+
+    <!--
+    <com.example.sayoukouki.androidracinggame.ParamBar
+        android:id="@+id/param_bar"
+        android:background="#a0d8ef"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+        -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="280dp"
+        app:srcCompat="@drawable/tutorial" />
+</FrameLayout>

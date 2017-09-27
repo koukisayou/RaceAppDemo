@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/play"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bottom"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="400dp" />
+    <ImageButton
+        android:id="@+id/RightButton"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/right"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageButton
+        android:id="@+id/LeftButton"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/left"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/AcceleButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/top"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="490dp"/>
+
+    <!--
+    <Button
+        android:id="@+id/debug_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBUG: GO_NEXT_SCENE" />
+        -->
+
+</FrameLayout>
