@@ -1,7 +1,7 @@
 # RaceAppDemo
-![Title](wiki/images/panel_title2.png)
+![Title](https://github.com/koukisayou/RaceAppDemo/wiki/images/panel_title2.png)
 
-##Overview
+## Overview
 Androidで動作するタイムアタックレースゲームアプリです。レースのスタートからゴールまでの一周を、どれだけ早く走れるかを競います。
 
 ## Description
