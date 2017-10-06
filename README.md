@@ -3,6 +3,7 @@
 
 ## Overview
 Androidで動作するタイムアタックレースゲームアプリです。レースのスタートからゴールまでの一周を、どれだけ早く走れるかを競います。
+Javaソースファイルは/RaceAppDemo/app/src/main/java/に存在します。
 
 ## Description
 ### ゲームの画面ごとの説明と遷移
@@ -33,6 +34,7 @@ Androidで動作するタイムアタックレースゲームアプリです。�
 ## Usage
 
 RaceAppDemo-release.apkを実機にインストールすることで動作の確認を行えます。
+また、このページにAndroid実機よりアクセスすれば [こちら](http://sayou.s2.xrea.com/RaceAppDemo-release.apk) からインストールすることができます。
 
 ## Author
 
